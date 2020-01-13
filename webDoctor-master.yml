@@ -50,7 +50,17 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     # 合并多个DruidDataSource的监控数据
     useGlobalDataSourceStat: true
-
+ thymeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    cache: false
+    suffix: .html
+    mvc:
+     static-path-pattern: /**
+    resources:
+     static-locations: classpath:/templates/,classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+    prefix: classpath:/templates/
   #JPA配置
   jpa:
     database: mysql
