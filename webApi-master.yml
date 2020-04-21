@@ -124,7 +124,7 @@ feign:
         connectTimeout: 100000  #设置httpclient链接超时时间
         readTimeout: 100000   #设置httpclient响应超时时间
   hystrix:
-    enabled: true
+    enabled: false
    
 
 
