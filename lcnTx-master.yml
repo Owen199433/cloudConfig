@@ -1,5 +1,5 @@
 server:
-  port: 7970
+  port: 8348
 spring:
   application:
     name: inter-hsp-lcn
