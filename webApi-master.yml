@@ -180,3 +180,8 @@ security:
     resource:
       jwt:
         key-value: client-secret
+#  http://boss-beta.wkmhs.com/webApi/refund/orderRefundNotify 测试
+#  http://boss-dev.wkmhs.com/webApi/refund/orderRefundNotify 开发
+#  http://www.cqmbyy120.cn/webApi/refund/orderRefundNotify
+notifyUrl:
+  refundUrl: http://boss-dev.wkmhs.com/webApi/refund/orderRefundNotify
