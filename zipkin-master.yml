@@ -6,23 +6,7 @@ server:
 ##数据库连接信息
 spring:
   application:
-    name: inter-hsp-zipkin
-  zipkin:
-    base-url: http:localhost:9046
-    service:
-      name: sleuth-cart
-    sender:
-      #使用默认 http 方式收集 span 需要配置此项
-      type: rabbit
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: admin
-    password: admin
-  sleuth:
-    sampler:
-      #设置采样率默认为 0.1 注意之前的版本是percentage 新版本中更换为 probability
-      probability: 1    
+    name: inter-hsp-zipkin  
 #http client配置服务
 http:
   #最大连接数
