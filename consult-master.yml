@@ -1,8 +1,6 @@
 server:
   #端口号
   port: 7970
-  servlet:
-    context-path: /lcnTx
 spring:
   application:
     name: inter-hsp-lcn
