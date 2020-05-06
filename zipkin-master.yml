@@ -7,6 +7,8 @@ server:
 spring:
   application:
     name: inter-hsp-zipkin  
+  main:
+    allow-bean-definition-overriding: true
 #http client配置服务
 http:
   #最大连接数
