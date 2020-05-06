@@ -1,12 +1,10 @@
 server:
   #端口号
   port: 9047
-  servlet:
-    context-path: /zipkin
 ##数据库连接信息
 spring:
   application:
-    name: inter-hsp-zipkin  
+    name: inter-hsp-zipkin
   main:
     allow-bean-definition-overriding: true
 #http client配置服务
@@ -26,13 +24,16 @@ http:
 #用户下最多绑定的就诊人数量
 params:
   bindPatients: 10
-
 eureka:
   instance:
     prefer-ip-address: true
   client:
     serviceUrl:
       defaultZone: http://admin:admin@127.0.0.1:9092/eureka/eureka
-    enabled: true  
+    enabled: true
 #      http://localhost:9092/eureka/
-
+management:
+  metrics:
+    web:
+      server:
+        auto-time-requests: false
