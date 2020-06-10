@@ -181,3 +181,5 @@ security:
     resource:
       jwt:
         key-value: client-secret
+followUp:
+  url: https://h5-beta.wkmhs.com       
