@@ -189,5 +189,3 @@ followUp:
   url: https://h5-beta.wkmhs.com/mydoctor
   templateId: ojx9qyZz4Tu72a3wb_v0EfVU99IvJw8m4NFqej-Zl_k
   taskTime: 15
-oauth:
-  tokenUrl: http://localhost:9049/Oauth/oauth/token
