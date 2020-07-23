@@ -166,3 +166,7 @@ security:
         key-value: client-secret
 notifyUrl:
   payUrl: https://boss-dev.wkmhs.com/webPatient/order/orderPayNotify
+  
+followUp:
+  url: https://h5-beta.wkmhs.com
+  templateConsultId: spqvl0IOrGCj7DuF-bjDkToK-Me1o6gJ9IHk2RE6SAM  #医生问询模板 patient/doctor
