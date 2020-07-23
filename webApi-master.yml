@@ -186,6 +186,13 @@ security:
 notifyUrl:
   refundUrl: http://boss-dev.wkmhs.com/webApi/refund/orderRefundNotify
 followUp:
-  url: https://h5-beta.wkmhs.com/mydoctor
-  templateId: ojx9qyZz4Tu72a3wb_v0EfVU99IvJw8m4NFqej-Zl_k
+  url: https://h5-beta.wkmhs.com
+  templateId: ojx9qyZz4Tu72a3wb_v0EfVU99IvJw8m4NFqej-Zl_k #随访提醒模板 api
+  templateOrderId: nNq9uZ4GNYyEAv65zBk_IKeKlKsIs1hOavkzbX0PEGo #订单待支付提醒模板 api
+  templatePrescriptionNotPayId: l6pculaKrUjkHlVSjAdrNXuDjZufokZ1KQvmL5XSXHc #处方待支付提醒模板 api
+  templatePatientReportId: FFCL2Pmk8flfGKDYs6Op0XsyqxYpnwC9GsE3OtYyiRs #患者报道通知模块 api
+  templatePrescriptionId: 0bwKRnGiJFFFqeLvxZGQB9Cfk6dgoWWwgiW5RNMDxK0 #处方审核通过提醒模板/处方生成通知模板 doctor/api
+  templatePrescriptionCreateId: 5ZCAoC_SzkRkPVXKwDifN7int7P72WhiNNYrx6ix1IU #处方生成提醒模板 暂未使用
+  templateRemarkId: t9gNrJoNzzf0ciDOqDWEUon29dq8xLGXTl40bw1Iw5g #关注成功模板 暂未使用
+  templatePushId: q0nBkqDeM_lhBfRRkxnuCmvhbPTnjxXqMHDiAxTLZ2w #订单支付成功提醒模板 暂未使用
   taskTime: 15
