@@ -170,3 +170,4 @@ notifyUrl:
 followUp:
   url: https://h5-beta.wkmhs.com
   templateConsultId: spqvl0IOrGCj7DuF-bjDkToK-Me1o6gJ9IHk2RE6SAM  #医生问询模板 patient/doctor
+  templateRemarkId: t9gNrJoNzzf0ciDOqDWEUon29dq8xLGXTl40bw1Iw5g #关注成功模板 暂未使用
