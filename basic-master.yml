@@ -10,7 +10,7 @@ spring:
   datasource:
     url: jdbc:mysql://10.10.10.100:3307/internethsp?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     username: root
-    password:
+    password: Vl9d89RAueNU/06z3PRAjruDkMN+iZYRVpxBJwWAFKiWggmNmKICnH7vXS8KWE/Ld/WTyy/px66mEpT61uFjnw==
     #url: jdbc:mysql://219.152.174.150:33306/mytinternethsp?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
     #username: mytinternethsp
     #password: Mytinternethsp@2020
@@ -42,12 +42,15 @@ spring:
         commons-log:
           connection-logger-name: stat,wall,log4j
       # 通过connectProperties属性来打开mergeSql功能；慢SQL记录
-      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000;config.decrypt=true;config.decrypt.key=MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAISeCMgS3Ow5vf1VTZnSjnV0cdIRpLQ3m1/k+mjSNEJSCjF5zsPOIl677tkhrgDBsEDuSLFkauPKhMpfV9ASWhUCAwEAAQ==
       # 合并多个DruidDataSource的监控数据
       useGlobalDataSourceStat: true
       log-abandoned: true
       remove-abandoned: true
       remove-abandoned-timeout-millis: 1800
+      filter:
+        config:
+          enabled: true
       stat-view-servlet:
         enabled: true
         login-username: admin
