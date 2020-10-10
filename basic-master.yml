@@ -8,9 +8,12 @@ spring:
   application:
     name: inter-hsp-basic
   datasource:
-    url: jdbc:mysql://10.10.10.100:3307/internethsp?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
-    username: root
-    password:
+    #url: jdbc:mysql://10.10.10.100:3307/internethsp?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    #username: root
+    #password:
+    url: jdbc:mysql://219.152.174.150:33306/internethsp?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+    username: mytinternethsp
+    password: Mytinternethsp@2020
     driver-class-name: com.mysql.jdbc.Driver
     ###################以下为druid增加的配置###########################
     type: com.alibaba.druid.pool.DruidDataSource
