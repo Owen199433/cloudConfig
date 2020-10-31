@@ -193,7 +193,7 @@ security:
       jwt:
         key-value: client-secret
 followUp:
-  url: https://h5-beta.wkmhs.com
+  url: h5-dev.cqmbyy.com
   imUrl: https://im-beta.wkmhs.com
   templatePrescriptionId: 0bwKRnGiJFFFqeLvxZGQB9Cfk6dgoWWwgiW5RNMDxK0 #处方审核通过提醒模板/处方生成通知模板 doctor/api
   templateMessageId: ojx9qyZz4Tu72a3wb_v0EfVU99IvJw8m4NFqej-Zl_k #消息群发模板 doctor
