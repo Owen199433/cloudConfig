@@ -200,7 +200,7 @@ security:
 #  http://boss-dev.wkmhs.com/webApi/refund/orderRefundNotify 开发
 #  http://www.cqmbyy120.cn/webApi/refund/orderRefundNotify
 notifyUrl:
-  refundUrl: http://boss-dev.wkmhs.com/webApi/refund/orderRefundNotify
+  refundUrl: http://boss-dev.cqmbyy.com/webApi/refund/orderRefundNotify
 followUp:
   url: https://h5-beta.wkmhs.com
   templateId: ojx9qyZz4Tu72a3wb_v0EfVU99IvJw8m4NFqej-Zl_k #随访提醒模板 api
