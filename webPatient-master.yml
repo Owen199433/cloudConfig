@@ -190,7 +190,7 @@ followUp:
   followRemindOperatingProcedures: 关注公众号，点击以下链接  #操作流程 patient
   followRemindTel: 023-63208687  #电话 patient
   followRemindContent: 欢迎关注铭博互联网医院，找医生咨询可点击查看详情。  #内容 patient
-  followRemindUrl: https://h5-prod.wkmhs.com/dockerlist  #链接 patient
+  followRemindUrl: https://h5-prod.cqmbyy.com/dockerlist  #链接 patient
 #微信公众号配置
 weixin-config:
   app-id: wx51be26479297f13c
