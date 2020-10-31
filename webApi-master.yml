@@ -202,7 +202,7 @@ security:
 notifyUrl:
   refundUrl: http://boss-dev.cqmbyy.com/webApi/refund/orderRefundNotify
 followUp:
-  url: https://h5-beta.wkmhs.com
+  url: https://h5-dev.cqmbyy.com
   templateId: ojx9qyZz4Tu72a3wb_v0EfVU99IvJw8m4NFqej-Zl_k #随访提醒模板 api
   templateOrderId: nNq9uZ4GNYyEAv65zBk_IKeKlKsIs1hOavkzbX0PEGo #订单待支付提醒模板 api
   templatePrescriptionNotPayId: l6pculaKrUjkHlVSjAdrNXuDjZufokZ1KQvmL5XSXHc #处方待支付提醒模板 api
