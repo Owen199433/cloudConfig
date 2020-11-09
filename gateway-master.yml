@@ -163,6 +163,14 @@ spring:
         
         - Path=/zipkin/**
         filters:
+        - StripPrefix=0     
+      - id: SERVICEWEBINTEFACE
+                    # lb代表从注册中心获取服务，且已负载均衡方式转发
+        uri: lb://INTER-HSP-WEBINTERFACE
+        predicates:
+        
+        - Path=/webInterface/**
+        filters:
         - StripPrefix=0         
   # =====================================
 
