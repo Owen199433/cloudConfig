@@ -10,6 +10,14 @@ spring:
     allow-bean-definition-overriding: true
   cloud:
     gateway:
+      globalcors:
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods:
+            - GET
+            - POST
+            - HEAD
       discovery:
         locator:
           enabled: true
@@ -204,4 +212,4 @@ logging:
           gateway: debug 
 
            
-  
+ 
