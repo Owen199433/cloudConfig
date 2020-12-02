@@ -182,6 +182,7 @@ security:
         key-value: client-secret
 notifyUrl:
   payUrl: https://boss-dev.cqmbyy.com/webPatient/order/orderPayNotify
+  aliAppletPayNotifyUrl: https://boss-dev.cqmbyy.com/webPatient/order/orderAliAppletsPayNotify
   
 followUp:
   url: https://h5-dev.cqmbyy.com
